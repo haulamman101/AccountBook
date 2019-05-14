@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>出納帳（すいとうちょう）</title>
+</head>
+<body>
+  <h1>ログイン後TopPAGE</h1>
+  <h2>入出金</h2>
+  
+  <h2>ログアウト</h2>
+  <a href="index.html"></a>
+  
+  <h3>入金</h3>
+  <form action="top.html" method="post">
+    金額:<input name="amount">
+    <button>入金する</button>
+  </form>
+  
+  <h3>出金</h3> 
+  <form action="" method="post">
+      <select>
+        <option>飲食代
+        <option>交通費
+      </select><br>
+      金額:<input name="amount">
+    <button>出金する</button>
+  </form> 
+  
+  <h2>出納帳</h2>
+  <table border="1">
+     <tr>
+         <th>Date
+         <th>科目
+         <th>入金
+         <th>出金
+     </tr>
+    
+     
+     <tr>
+         <td>2019.05.03
+         <td>Movie
+         <td>0
+         <td>1,500
+     </tr>
+     
+     
+     <tr>
+         <td>2019.05.02
+         <td>Shopping
+         <td>0
+         <td>2,000
+     </tr>
+      
+       
+     <tr>
+         <td>2019.05.01
+         <td>
+         <td>50,000
+         <td>
+     </tr>
+  </table>
+  <h2>ユーザー情報</h2>
+  <a href="user_edit.html">ユーザー情報編集</a>
+  
+</body>
+</html>
